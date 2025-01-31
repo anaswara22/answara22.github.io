@@ -1,0 +1,19 @@
+h1 {
+    color: rgba(31, 31, 207, 0.726);
+    background-color: rgb(12, 170, 12); 
+    font-size: 49px;
+}
+#sample{
+    color: rgba(36, 150, 226, 0.849);
+}
+#work{
+    font-size: 30px;
+    background: palevioletred;
+}
+#sub{
+    color: rgba(69, 3, 100, 0.979);
+    background: rgb(206, 7, 206);
+}
+.clas{
+    color: rgb(12, 101, 184);
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anaswara's Account</title>
+  <!-- Bootstrap CSS Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .profile-header {
+      background-color: #343a40;
+      color: #fff;
+      padding: 30px 0;
+      text-align: center;
+    }
+    .profile-header h1 {
+      font-size: 2.5rem;
+    }
+    .profile-header p {
+      font-size: 1.2rem;
+    }
+    .card {
+      border-radius: 10px;
+    }
+    .card-body {
+      background-color: #fff;
+      padding: 20px;
+    }
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+    .hobby-image {
+      width: 100px;
+      height: 100px;
+      margin-right: 10px;
+      border-radius: 10px;
+    }
+    .hobbies-section ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .hobbies-section li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .music-player {
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Profile Header -->
+  <header class="profile-header">
+    <div class="container">
+      <!-- Teddy Bear Cartoon Image as Profile Picture -->
+      <img src="https://www.clipartmax.com/png/full/244-2446791_teddy-bear-cartoon-png.jpg" alt="Teddy Bear Cartoon" class="profile-img">
+      <h1>Anaswara</h1>
+      <p>B.Tech Student at Sahrdaya College of Engineering and Technology, Kodakara</p>
+    </div>
+  </header>
+
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Profile Sidebar -->
+      <div class="col-lg-3 col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Personal Information</h5>
+            <ul class="list-group">
+              <li class="list-group-item">Full Name: Anaswara</li>
+              <li class="list-group-item">College: Sahrdaya College of Engineering</li>
+              <li class="list-group-item">Course: B.Tech</li>
+              <li class="list-group-item">Location: Kodakara</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Profile Details -->
+      <div class="col-lg-9 col-md-8">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">About Me</h5>
+            <p>I am a B.Tech student passionate about technology and learning. I enjoy playing shuttle, listening to music, and exploring new places through travel. I'm constantly curious and enjoy expanding my knowledge both academically and in my personal life.</p>
+
+            <h5 class="mt-4">Hobbies</h5>
+            <div class="hobbies-section">
+              <ul>
+                <li>
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Badminton_Shuttlecock.png" alt="Shuttle" class="hobby-image">
+                  Playing Shuttle
+                </li>
+                <li>
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Globe_trotter.jpg" alt="Traveling" class="hobby-image">
+                  Traveling
+                </li>
+              </ul>
+            </div>
+
+            <h5 class="mt-4">My Favorite Music</h5>
+            <div class="music-player">
+              <audio controls>
+                <source src="path_to_your_music_file.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+              </audio>
+              <p class="mt-3">You can add your favorite music file here. Replace the `src` link with the actual path to your audio file.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
